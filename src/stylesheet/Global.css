@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Varela Round";
+  src: url("../fonts/varelaround/VarelaRound-Regular.ttf") format("truetype");
+}
+
+:root {
+  --font-family-title: "Merriweather";
+  --font-family-body: "Varela Round";
+  --base-color: #8c9c5c;
+  --text-color: #242222;
+}
